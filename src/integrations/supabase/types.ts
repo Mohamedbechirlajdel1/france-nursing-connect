@@ -14,7 +14,78 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      healthcare_applications: {
+        Row: {
+          application_status: string
+          available_from: string
+          contract_type: string
+          created_at: string
+          current_country: string
+          current_employer: string | null
+          date_of_birth: string
+          email: string
+          experience: string
+          full_name: string
+          gdpr_consent: boolean
+          gender: string
+          id: string
+          languages_spoken: string[]
+          nationality: string
+          phone: string
+          preferred_region: string | null
+          profession: string
+          specialized_skills: string[]
+          updated_at: string
+          user_id: string | null
+        }
+        Insert: {
+          application_status?: string
+          available_from: string
+          contract_type: string
+          created_at?: string
+          current_country: string
+          current_employer?: string | null
+          date_of_birth: string
+          email: string
+          experience: string
+          full_name: string
+          gdpr_consent?: boolean
+          gender: string
+          id?: string
+          languages_spoken?: string[]
+          nationality: string
+          phone: string
+          preferred_region?: string | null
+          profession: string
+          specialized_skills?: string[]
+          updated_at?: string
+          user_id?: string | null
+        }
+        Update: {
+          application_status?: string
+          available_from?: string
+          contract_type?: string
+          created_at?: string
+          current_country?: string
+          current_employer?: string | null
+          date_of_birth?: string
+          email?: string
+          experience?: string
+          full_name?: string
+          gdpr_consent?: boolean
+          gender?: string
+          id?: string
+          languages_spoken?: string[]
+          nationality?: string
+          phone?: string
+          preferred_region?: string | null
+          profession?: string
+          specialized_skills?: string[]
+          updated_at?: string
+          user_id?: string | null
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
