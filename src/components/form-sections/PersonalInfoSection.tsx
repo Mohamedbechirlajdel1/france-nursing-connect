@@ -127,7 +127,7 @@ export const PersonalInfoSection: React.FC = () => {
             <FormLabel>{t('phone')}</FormLabel>
             <FormControl>
               <Input 
-                placeholder="+33 1 23 45 67 89" 
+                placeholder="WhatsApp: +33 6 12 34 56 78" 
                 {...field} 
                 className="h-11"
                 type="tel"

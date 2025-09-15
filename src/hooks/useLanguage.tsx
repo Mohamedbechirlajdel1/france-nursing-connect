@@ -25,7 +25,7 @@ const translations = {
     other: 'Autre',
     nationality: 'Nationalité',
     currentCountry: 'Pays de résidence actuel',
-    phone: 'Téléphone',
+    phone: 'WhatsApp',
     email: 'Email',
     
     // Professional Information
@@ -63,7 +63,7 @@ const translations = {
     // Validation
     required: 'Ce champ est requis',
     invalidEmail: 'Email invalide',
-    invalidPhone: 'Numéro de téléphone invalide',
+    invalidPhone: 'Numéro WhatsApp invalide',
     
     // Skills options
     icu: 'Soins intensifs (USI)',
@@ -91,7 +91,7 @@ const translations = {
     other: 'Other',
     nationality: 'Nationality',
     currentCountry: 'Current Country of Residence',
-    phone: 'Phone',
+    phone: 'WhatsApp',
     email: 'Email',
     
     // Professional Information
@@ -129,7 +129,7 @@ const translations = {
     // Validation
     required: 'This field is required',
     invalidEmail: 'Invalid email',
-    invalidPhone: 'Invalid phone number',
+    invalidPhone: 'Invalid WhatsApp number',
     
     // Skills options
     icu: 'Intensive Care Unit (ICU)',
