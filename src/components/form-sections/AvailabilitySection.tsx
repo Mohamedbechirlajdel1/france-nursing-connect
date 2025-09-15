@@ -97,7 +97,7 @@ export const AvailabilitySection: React.FC = () => {
                 </SelectTrigger>
               </FormControl>
               <SelectContent>
-                <SelectItem value="">Aucune préférence</SelectItem>
+                <SelectItem value="no-preference">Aucune préférence</SelectItem>
                 {frenchRegions.map((region) => (
                   <SelectItem key={region} value={region}>
                     {region}
